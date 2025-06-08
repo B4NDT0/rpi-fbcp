@@ -11,4 +11,4 @@ link_directories(/opt/vc/lib)
 
 add_executable(fbcp main.c)
 
-target_link_libraries(fbcp bcm_host vcos vchiq_arm)
+target_link_libraries(fbcp bcm_host vcos vchiq_arm vchostif)
